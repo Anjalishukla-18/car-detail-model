@@ -3,9 +3,9 @@ import pickle
 import numpy as np
 import pandas
 
-Ridge=pickle.load(open,'C:\Users\Anmol\Downloads\Ridge.pkl','wb')
-Lasso=pickle.load(open,'C:\Users\Anmol\Downloads\Lasso.pkl','wb')
-KNN=pickle.load(open,'C:\Users\Anmol\Downloads\KNN.pkl','wb')
+Ridge=pickle.load(open,'Ridge.pkl','wb')
+Lasso=pickle.load(open,'Lasso.pkl','wb')
+KNN=pickle.load(open,'KNN.pkl','wb')
 
 st.title('car_details')
  
